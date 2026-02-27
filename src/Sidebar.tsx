@@ -27,11 +27,12 @@ export function Sidebar({
   return (
     <aside
       style={{
-        width: 320,
+        width: 440,
+        minWidth: 340,
         padding: 16,
         borderRight: "1px solid rgba(255,255,255,0.08)",
         color: "white",
-        overflow: "auto",
+        overflowY: "auto",
       }}
     >
       <div style={{ fontSize: 18, fontWeight: 800 }}>Satisfactory — Diagrammer</div>

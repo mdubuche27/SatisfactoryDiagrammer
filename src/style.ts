@@ -21,8 +21,11 @@ export const btnGhost: React.CSSProperties = {
 };
 
 export const paletteCard: React.CSSProperties = {
-  padding: 12,
-  borderRadius: 14,
+  width: "100%",
+  boxSizing: "border-box",
+  padding: 8,                 // ↓ réduit (avant 12)
+  fontSize: 9,
+  borderRadius: 10,
   border: "1px solid rgba(255,255,255,0.10)",
   background: "rgba(255,255,255,0.06)",
   cursor: "grab",

@@ -305,6 +305,7 @@ export default function App() {
           <Controls />
         </ReactFlow>
       </main>
+      
     </div>
   );
 }
